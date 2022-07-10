@@ -1,0 +1,36 @@
+.container {
+  color: #fdfdfd;
+  height: 60px;
+  align-items: center !important;
+  display: flex;
+  justify-content: end;
+  margin: 0 50px 0 50px;
+}
+.navLinkWrapper {
+  align-items: center;
+
+  display: flex;
+  justify-content: end;
+}
+.navLink {
+  padding: 0 20px 0 20px;
+
+  color: #fdfdfd !important;
+}
+.count {
+  color: var(--orange-color);
+}
+.resumeButton {
+  background-color: var(--background-color);
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.resumeButton:hover {
+  background-color: #202828;
+}

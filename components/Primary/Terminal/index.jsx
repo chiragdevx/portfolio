@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import Command from "../Command";
-import { CONTENTS } from "../../utils/commandHelper";
+import { CONTENTS } from "../../../utils/commandHelper";
 import styles from "./Terminal.module.css";
 
 export default function Terminal() {

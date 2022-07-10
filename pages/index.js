@@ -1,6 +1,6 @@
-import Terminal from "../components/Terminal";
+import Terminal from "../components/Primary/Terminal";
 import styles from "../styles/Home.module.css";
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -14,6 +14,7 @@ export default function Home() {
           <br />
           <span className={styles.help}>Welcome to ShellFolio v2001.02!</span>
         </h1>
+        
         <p>
           Type "help" to see available commands. All Commands are case
           sensitive.
@@ -21,7 +22,11 @@ export default function Home() {
 
         <Terminal />
       </div>
+      
+      <Link href='/o/'>
       <p className={styles.boringTxt}>Boring portfolio &gt;</p>
+          </Link>
+     
     </div>
   );
 }

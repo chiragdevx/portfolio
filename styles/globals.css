@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 :root {
   --text-color: #a9b1d6;
   --primary: #7000e5;
   --secondary: #2ac3de;
   --background-color: #0e1212;
+   --orange-color: #cb450c;
 }
 
 html,
@@ -24,16 +27,7 @@ body {
 }
 
 body {
-  padding: 16px;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-size: 15px;
-  line-height: 1.6;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 h1 {
