@@ -22,7 +22,7 @@ export default function Terminal() {
     setCommands([...commands, { command, output: "Loading..." }]);
     if (`${command}` in CONTENTS) {
       output = await CONTENTS[`${command}`]();
-    } else if (command === "clear" || "cls") {
+    } else if (command === "clear" || command === "cls") {
       setLoading(false);
       return setCommands([]);
     } else {

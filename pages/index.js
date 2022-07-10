@@ -21,6 +21,7 @@ export default function Home() {
 
         <Terminal />
       </div>
+      <p className={styles.boringTxt}>Boring portfolio &gt;</p>
     </div>
   );
 }
