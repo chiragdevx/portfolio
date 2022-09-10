@@ -52,6 +52,7 @@ const getContacts = async () => {
     .join("");
 };
 
+
 export const CONTENTS = {
   help: () =>
     COMMANDS.map(

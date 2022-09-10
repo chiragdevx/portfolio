@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 const index = () => {
   const one = <p className={styles.myname}>Hi, my name is</p>;
   const two = <h2 className={styles.bigHeading}>Chirag Parmar</h2>;
-  const three = <h3 className={styles.smallHeading}>I build things for the web.</h3>;
+  const three = <h3 className={styles.smallHeading}>I build things with code.</h3>;
   const four = (
     <>
       <p  className={styles.details}>
