@@ -1,7 +1,6 @@
 import Input from "../Input";
 import Output from "../Output";
 
-
 export default function Command({ command, output, onSubmit }) {
   return (
     <div>

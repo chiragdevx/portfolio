@@ -1,18 +1,22 @@
 .terminal {
-    max-height: calc(100vh - 160px);
-    margin-bottom: 20px;
-    overflow-y: scroll;
-  }
-  
-  .terminal::-webkit-scrollbar {
-    width: 0 !important;
-  }
-  
+  max-height: calc(100vh - 160px);
+  margin-bottom: 20px;
+  overflow-y: scroll;
+}
+
+.terminal::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.terminal {
+  overflow: -moz-scrollbars-none;
+}
+
+.terminal {
+  -ms-overflow-style: none;
+}
+@media screen and (max-width: 600px) {
   .terminal {
-    overflow: -moz-scrollbars-none;
+    max-height: calc(100vh - 300px);
   }
-  
-  .terminal {
-    -ms-overflow-style: none;
-  }
-  
+}

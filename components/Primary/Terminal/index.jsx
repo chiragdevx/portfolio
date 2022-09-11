@@ -17,12 +17,13 @@ export default function Terminal() {
       .replace(/'/g, "&#039;");
 
   const addCommand = async (command) => {
+    let newCommand = command.toLowerCase();
     let output;
     setLoading(true);
     setCommands([...commands, { command, output: "Loading..." }]);
-    if (`${command}` in CONTENTS) {
-      output = await CONTENTS[`${command}`]();
-    } else if (command === "clear" || command === "cls") {
+    if (`${newCommand}` in CONTENTS) {
+      output = await CONTENTS[`${newCommand}`]();
+    } else if (newCommand === "clear" || newCommand === "cls") {
       setLoading(false);
       return setCommands([]);
     } else {
