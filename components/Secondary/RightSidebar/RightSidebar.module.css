@@ -1,0 +1,28 @@
+.spine {
+  border-left: 2px solid var(--orange-color);
+  height: 200px;
+  visibility: inherit;
+  opacity: 1;
+  border-image: linear-gradient(
+      to bottom,
+      var(--orange-color),
+      rgba(14, 18, 18, 0)
+    )
+    1 100%;
+}
+.RightSidebarWrapper {
+    width: 150px;
+    align-items: center;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+}
+.email {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 320px;
+  font-size: 14px;
+}

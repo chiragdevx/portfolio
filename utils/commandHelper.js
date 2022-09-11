@@ -33,7 +33,7 @@ const getProjects = async () => {
         <a href="${project.link}" target="_blank"><b class="command">${
           project.name
         }</b></a> - <b>${project.stack.join(", ")}</b>
-        <p class="meaning">${project.description}</p>
+        <div class="meaning">${project.description}</div>
       </div>`
       )
       .join("");
@@ -45,7 +45,7 @@ const getContacts = async () => {
   return contactMediums
     .map(
       (contact) => `<div style="display: flex; justify-content: space-between;">
-      <p style="font-size: 15px">${contact.medium}</p>
+      <div style="font-size: 15px">${contact.medium}</div>
       <a class="meaning" href="${contact.link}" target="_blank">${contact.username}</a>
     </div>`
     )
@@ -57,8 +57,8 @@ export const CONTENTS = {
   help: () =>
     COMMANDS.map(
       (command) => `<div style="display: flex; justify-content: space-between;">
-        <p style="font-size: 15px">${command.command}</p>
-        <p>${command.description}</p>
+        <div style="font-size: 15px">${command.command}</div>
+        <div>${command.description}</div>
       </div>`
     ).join("") +
     `<br />

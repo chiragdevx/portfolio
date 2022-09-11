@@ -3,7 +3,7 @@ import styles from "./Projects.module.css";
 const index = () => {
   return (
     <div className={styles.container}>
-      yhf
+      
     </div>
   )
 }

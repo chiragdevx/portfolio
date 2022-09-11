@@ -15,16 +15,16 @@ export default function Home() {
           <span className={styles.help}>Welcome to ShellFolio v2001.02!</span>
         </h1>
         
-        <p>
+        <div>
           Type "help" to see available commands. All Commands are case
           sensitive.
-        </p>
+        </div>
 
         <Terminal />
       </div>
       
       <Link href='/o/'>
-      <p className={styles.boringTxt}>Boring portfolio &gt;</p>
+      <div className={styles.boringTxt}>Boring portfolio &gt;</div>
           </Link>
      
     </div>

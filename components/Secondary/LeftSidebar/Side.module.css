@@ -1,0 +1,23 @@
+    .leftSidebar {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    }
+.iconWrapper {
+  margin-bottom: 25px;
+}
+.spine {
+  border-left: 2px solid var(--orange-color);
+  height: 200px;
+  visibility: inherit;
+  opacity: 1;
+  border-image: linear-gradient(
+      to bottom,
+      var(--orange-color),
+      rgba(14, 18, 18, 0)
+    )
+    1 100%;
+}

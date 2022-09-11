@@ -1,0 +1,4 @@
+.layoutWrapper{
+display: flex;
+flex-direction: column;
+}
