@@ -1,6 +1,6 @@
 import Terminal from "../components/Primary/Terminal";
 import styles from "../styles/Home.module.css";
-import Link from 'next/link'
+import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -9,24 +9,25 @@ export default function Home() {
         <div className={styles.spine}></div>
       </div>
       <div className={styles.container}>
-        <h1>
-          <span className={styles.firstname}> Chirag</span>Parmar:$
-          <br />
-          <span className={styles.help}>Welcome to ShellFolio v2001.02!</span>
-        </h1>
-        
-        <p>
-          Type "help" to see available commands. All Commands are case
-          sensitive.
-        </p>
+        <div className={styles.headings}>
+          <h1>
+            <span className={styles.firstname}> Chirag</span>Parmar:$
+            <br />
+            <div className={styles.help}>Welcome to ShellFolio v2001.02!</div>
+          </h1>
+
+          <p>
+            Type "help" to see available commands. All Commands are case
+            insensitive.
+          </p>
+        </div>
 
         <Terminal />
       </div>
-      
-      <Link href='/o/'>
-      <p className={styles.boringTxt}>Boring portfolio &gt;</p>
-          </Link>
-     
+
+      {/* <Link href="/o/">
+        <p className={styles.boringTxt}>Boring portfolio &gt;</p>
+      </Link> */}
     </div>
   );
 }

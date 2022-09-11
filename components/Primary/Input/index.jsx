@@ -13,8 +13,7 @@ export default function Input({ command, onSubmit }) {
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
       <label htmlFor="command">
-       :{" "}
-        <span style={{ color: "var(--primary)" }}>~</span>{" "}
+        : <span style={{ color: "var(--primary)" }}>~</span>{" "}
         <span style={{ color: "var(--text-color)" }}>&gt;</span>
       </label>
 
