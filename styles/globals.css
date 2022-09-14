@@ -5,7 +5,7 @@
   --text-color: #a9b1d6;
   --primary: #7000e5;
   --secondary: #2ac3de;
-  --background-color: #0e1212;
+  --background-color: #000000;
   --orange-color: #cb450c;
 }
 
@@ -15,7 +15,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #0e1212;
+  background-color: var(--background-color);
   overflow: hidden;
 }
 
