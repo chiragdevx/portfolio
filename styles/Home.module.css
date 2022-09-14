@@ -51,13 +51,14 @@
   opacity: 1;
   transform: matrix(1, 0, 0, 1, 0, 0);
   background-color: rgb(89, 24, 223);
+  z-index: 9;
 }
 .spine {
   bottom: 0;
   position: relative;
   top: 242px;
-  right: -3px;
-  border-left: 2px solid #682ae9;
+  right: -3.8px;
+  border-left: 1.5px solid #682ae9;
   height: 572px;
   visibility: inherit;
   opacity: 1;
