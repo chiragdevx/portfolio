@@ -1,4 +1,3 @@
 export default function Output({ output }) {
-    return output ? <div dangerouslySetInnerHTML={{ __html: output }}></div> : <></>;
-  }
-  
+  return output ? <p style={{textAlign:"justify"}} dangerouslySetInnerHTML={{ __html: output }}></p> : <></>;
+}

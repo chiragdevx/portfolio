@@ -52,7 +52,6 @@ const getContacts = async () => {
     .join("");
 };
 
-
 export const CONTENTS = {
   help: () =>
     COMMANDS.map(
@@ -63,23 +62,21 @@ export const CONTENTS = {
     ).join("") +
     `<br />
       <div class="command">Type one of the above to view. For eg. <span style="color: var(--secondary)">about</span></div>`,
-  about: () => `My name is Chirag Parmar. I am ${getAge(
+  about: () => `Chirag Parmar. I am ${getAge(
     "February 04,2001"
-  )} and I\'m a Web developer
+  )} years young Web developer
     <br/><br/>
-    I love coding in Javascript and Typescript, and have worked with frameworks like ReactJS, nextJS. I currently use NodeJS and Gatsby in a some of my projects and exploring web3.
+    I write clean code and pushing my skills to the limit. My interests include joining an exciting team of passionate people, personal growth and love long walks on the street I am a team player who brings a lot of laughter to a room and someone who can quickly switch focus when priorities adjust.Currently I am exploring Web3.
     <br /><br />
-    I am a developer at <a href="https://ciphernutz.com" target="_blank">Ciphernutz</a>.
     <br />
   `,
 
   skills: () => `
   I am experienced with Javascript and Typescript and the web technologies dominating at the time:<br /><br />
-  <div class="skill"><b>core</b>: HTML, CSS,Javascript<br /></div>
-  <div class="skill"><b>frameworks</b>:React, Gatsby, NextJS<br /></div>
+  <div class="skill"><b>core</b>: HTML, CSS,Javascript, NodeJS<br /></div>
+  <div class="skill"><b>frameworks</b>:ReactJS, NextJS, ExpressJS, Gatsby<br /></div>
   <div class="skill"><b>database</b>: MongoDB, firebase, and MySQL<br /></div><br />
 
-  I also have experience with Mobile Development with Flutter.
   `,
   projects: getProjects,
   contacts: getContacts,
