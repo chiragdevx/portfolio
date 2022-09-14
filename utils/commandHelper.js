@@ -64,9 +64,9 @@ export const CONTENTS = {
       <div class="command">Type one of the above to view. For eg. <span style="color: var(--secondary)">about</span></div>`,
   about: () => `Chirag Parmar. I am ${getAge(
     "February 04,2001"
-  )} years young Web developer
+  )} years young Web developer.
     <br/><br/>
-    I write clean code and pushing my skills to the limit. My interests include joining an exciting team of passionate people, personal growth and love long walks on the street I am a team player who brings a lot of laughter to a room and someone who can quickly switch focus when priorities adjust.Currently I am exploring Web3.
+    I write clean code and pushing my skills to the limit. My interests include joining an exciting team of passionate people, personal growth and love long walks on the street. I am a team player who brings a lot of laughter to a room and someone who can quickly switch focus when priorities adjust. Currently I am exploring Web3.
     <br /><br />
     <br />
   `,
